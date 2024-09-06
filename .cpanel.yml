@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bhangepl/public_html/
+    - /bin/cp * $DEPLOYPATH
+   
